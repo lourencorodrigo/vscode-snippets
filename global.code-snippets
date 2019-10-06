@@ -1,0 +1,95 @@
+{
+	"Print to console": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "rlog",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Create new Promise": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "rpromise",
+		"body": [
+			"new Promise((resove, reject) => {",
+			"\t$0",
+			"});"
+		],
+		"description": "Create a new Promisse"
+	},
+	"Stateless Function Component without PropTypes": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "rrf",
+		"body": [
+			"import React from 'react';",
+			"",
+			"const $TM_FILENAME_BASE = () => (",
+			"\t<h1>$TM_FILENAME_BASE</h1>",
+			");",
+			"",
+			"export default $TM_FILENAME_BASE;",
+			"",
+		],
+		"description": "Create a Stateless Function Component without PropTypes"
+	},
+	"Stateless Function Component with PropTypes": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "rrfp",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"",
+			"const $TM_FILENAME_BASE = () => (",
+			"\t<h1>$TM_FILENAME_BASE</h1>",
+			");",
+			"",
+			"$TM_FILENAME_BASE.propTypes = {",
+			"",
+			"}",
+			"",
+			"export default $TM_FILENAME_BASE;",
+			"",
+		],
+		"description": "Create a Stateless Function Component with PropTypes"
+	},
+	"Class Component without PropTypes": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "rrc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"class $TM_FILENAME_BASE extends React.Component {",
+			"\trender() {",
+			"\t\treturn <h1>$TM_FILENAME_BASE</h1>;",
+			"\t}",
+			"}",
+			"",
+			"export default $TM_FILENAME_BASE;",
+			"",
+		],
+		"description": "Create a Class Component without PropTypes"
+	},
+	"Class Component with PropTypes": {
+		"scope": "javascript,javascriptreact",
+		"prefix": "rrcp",
+		"body": [
+			"import React from 'react';",
+			"import PropTypes from 'prop-types';",
+			"",
+			"class $TM_FILENAME_BASE extends React.Component {",
+			"\trender() {",
+			"\t\treturn <h1>$TM_FILENAME_BASE</h1>;",
+			"\t}",
+			"}",
+			"",
+			"$TM_FILENAME_BASE.propTypes = {",
+			"",
+			"}",
+			"",
+			"export default $TM_FILENAME_BASE;",
+			"",
+		],
+		"description": "Create a Class Component with PropTypes"
+	}
+}
