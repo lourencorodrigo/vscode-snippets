@@ -12,7 +12,7 @@
 		"scope": "javascript,javascriptreact",
 		"prefix": "rpromise",
 		"body": [
-			"new Promise((resove, reject) => {",
+			"new Promise((resolve, reject) => {",
 			"\t$0",
 			"});"
 		],
